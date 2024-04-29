@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arimo, sans-serif;
+}
+
+header{
+    padding: 3em 3em 1em 3em;
+    text-align: center;
+    color: #163f66;
+    font-family: serif;
+}
+
+.animation{
+    display: flex;
+    justify-content: center;
+}
+
+.animation img{
+    margin-top: 2em;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.animation img:hover{
+    width: 220px;
+    height: 220px;
+    border: 1px solid #91c1ee;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #91c1ee;
+}
+
+.summary{
+    background-color: #ffffff;
+    padding: 3em;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.main{
+    background-color: #dde7f0;
+    padding: 2em;
+}
+
+.main h2{
+    padding-bottom: 1em;
+    color: #052441;
+}
+.main p{
+    letter-spacing: 0.5px;
+}
+
+.main .mark{
+    display: inline-block;
+    padding: 5px;
+    background-color: #00213f;
+    color: #eff7fd;
+    border-radius: 20px;
+}
+
+.pre-second{
+    display: flex;
+    justify-content: center;
+}
+
+.blue{
+    width: 100vw;
+    height: 400px;
+}
+
+.second-main{
+    padding: 2em;
+    background-color: #0c112b;
+    color: #eff7fd;
+    letter-spacing: 0.4px;
+    font-size: 15px;
+}
+
+.second-main h1{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.second-main h3{
+    padding-bottom: 1em;
+}
+
+.closing{
+    padding: 3em;
+    text-align: center;
+    font-size: 12px;
+}
+
+.closing h3{
+    margin-bottom: 15px;
+}
+
+.link{
+    font-size: 14px;
+    padding: 3em;
+}
+
+.link ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.link a{
+    color: #052441;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.link a:hover{
+    background: #122231;
+    color: #d8e6f3;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+footer{
+    background-color: #b8cbdd;
+    padding: 2em;
+    text-align: center;
+    font-size: 10px;
+    color: #122231;
+}
